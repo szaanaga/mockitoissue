@@ -1,12 +1,17 @@
 package com.wuerth.phoenix.cis.mockitoissue;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.mockito.MockedStatic;
 import org.mockito.Mockito;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
-class StaticUtilsTest {
+
+public class StaticUtilsTest {
+
+    public StaticUtilsTest() {
+
+    }
 
     @Test
     public void test() {
